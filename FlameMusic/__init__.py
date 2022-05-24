@@ -16,7 +16,7 @@ from os import listdir, mkdir
 from git import Repo
 from git.exc import GitCommandError, InvalidGitRepositoryError
 
-from FlameMusic.MusicUtilities.helpers.tasks import install_requirements
+from FlameMusic.FlameMusicUtilities.helpers.tasks import install_requirements
 from FlameMusic.converter.cli import app, userbot
 from FlameMusic import config
 from FlameMusic.config import (
