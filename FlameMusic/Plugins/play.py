@@ -246,7 +246,7 @@ I ɴᴇᴇᴅ ᴛᴏ ʙᴇ ᴀɴ ᴀᴅᴍɪɴ ᴡɪᴛʜ sᴏᴍᴇ ᴘᴇʀᴍ
     if not a.can_restrict_members:
         await message.reply_text(
             "I ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴛʜᴇ ɴᴇᴄᴇssᴀʀʏ ᴘᴇʀᴍɪssɪᴏɴs ᴛᴏ ᴘᴇʀғᴏʀᴍ ᴛʜɪs ᴀᴄᴛɪᴏɴ."
-            + "\n❌ BAN  USERS
+            + "\n❌ BAN  USERS"
         )
         return
     try: 
