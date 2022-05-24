@@ -118,7 +118,7 @@ async def pausevc(_, CallbackQuery):
     )
     if not a.can_manage_voice_chats:
         return await CallbackQuery.answer(
-            "Yᴏᴜ ᴅᴏ ɴᴏᴛ ʜᴀᴠᴇ ᴛʜᴇ ɴᴇᴄᴇssᴀʀʏ ᴘᴇʀᴍɪssɪᴏɴs ᴛᴏ ᴘᴇʀғᴏʀᴍ ᴛʜɪs ᴀᴄᴛɪᴏn/n.❌ MANAGE VOICE CHAT",",
+            "Yᴏᴜ ᴅᴏ ɴᴏᴛ ʜᴀᴠᴇ ᴛʜᴇ ɴᴇᴄᴇssᴀʀʏ ᴘᴇʀᴍɪssɪᴏɴs ᴛᴏ ᴘᴇʀғᴏʀᴍ ᴛʜɪs ᴀᴄᴛɪᴏn/n.❌ MANAGE VOICE CHAT",
             show_alert=True,
         )
     CallbackQuery.from_user.first_name
