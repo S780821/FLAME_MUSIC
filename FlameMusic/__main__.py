@@ -8,13 +8,13 @@ from pytz import utc
 from pyrogram import Client
 from FlameMusic.config import AUTO_LEAVE
 from FlameMusic.config import API_ID, API_HASH, BOT_TOKEN, MONGO_DB_URI, SUDO_USERS, LOG_GROUP_ID
-from Music import BOT_NAME, ASSNAME, app, client
-from Music.FlameMusicUtilities.database.functions import clean_restart_stage
-from Music.FlameMusicUtilities.database.queue import (get_active_chats, remove_active_chat)
-from Music.FlameMusicUtilities.tgcallsrun import run
+from FlameMusic import BOT_NAME, ASSNAME, app, client
+from FlameMusic.FlameMusicUtilities.database.functions import clean_restart_stage
+from FlameMusic.FlameMusicUtilities.database.queue import (get_active_chats, remove_active_chat)
+from FlameMusic.FlameMusicUtilities.tgcallsrun import run
 from pytgcalls import idle
 from motor.motor_asyncio import AsyncIOMotorClient as MongoClient
-from Music.FlameMusicUtilities.helpers.autoleave import leave_from_inactive_call
+from FlameMusic.FlameMusicUtilities.helpers.autoleave import leave_from_inactive_call
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 
 
