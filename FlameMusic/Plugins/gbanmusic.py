@@ -161,7 +161,7 @@ async def unban_globally(_, message):
         await message.reply_text("you wanna block urself?")
     elif user_id == BOT_ID:
         await message.reply_text(
-            "Should I unblock myself? But I'm not blocked...............")
+            "Should I unblock myself? But I'm not blocked."
         )
     elif user_id in sudoers:
         await message.reply_text("Sudo users can't be blocked/blocked.")
@@ -195,4 +195,4 @@ async def chat_watcher_func(_, message):
 
 **Possible Reasons:** Potential Spammers and Abusers.
 """
-        )
+    )
