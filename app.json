@@ -1,0 +1,99 @@
+{
+    "name": "Flame",
+    "description": "Music allow you to stream music trought the telegram voice chat feature.",
+    "keywords": ["music", "voice chat", "telegram","FlameMusic"],
+    "repository": "https://github.com/S780821/FLAME_MUSIC",
+    "stack": "container",
+    "env": {
+        "SESSION_NAME": {
+            "description": "Fill here ur pyrogram session",
+            "required": true
+        },
+        "OWNER_ID": {
+            "description": "Fill here owner id generate by another bot",
+            "required": true,
+            "value": "5083524212"
+        },
+        "ASS_ID": {
+            "description": "Telegram assistant Id ",
+            "required": true,
+            "value": ""
+        },
+        "LOG_GROUP_ID": {
+            "description": "create a grp and add miss rose and find ur grp id amd fill here",
+            "required": true,
+            "value": ""
+        },
+        "API_ID": {
+            "description": "Enter Api Id From my.telegram.org",
+            "required": true,
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "your Api Hash from my.telegram.org/apps",
+            "required": true,
+            "value": ""
+        },
+        "HEROKU_API_KEY": {
+            "description": "Enter h api for updates ",
+            "value": "",
+            "required": false
+        },
+        "HEROKU_APP_NAME": {
+           "description": "Heroku app name ",
+           "value": "",
+           "required": false
+        },
+        "GROUP": {
+            "description": "Entet grp username without @",
+            "required": true,
+            "value": "Flame_Project"
+        },
+         "CHANNEL": {
+            "description": "Enter channel username without  @",
+            "required": true,
+            "value": "Flame_Updates"
+        },
+        "SUDO_USERS": {
+            "description": "fill with user id that can access all functions in your bot (separated by spaces.)",
+            "required": true,
+            "value": "5083524212"
+        },
+        "DURATION_LIMIT": {
+            "description": "Do not Change !!",
+            "required": true,
+            "value": "36000"
+        },
+        "BOT_TOKEN": {
+            "description": "Enter bot token from @botfather",
+            "required": true,
+            "value": ""
+        },
+        "UPSTREAM_REPO": {
+            "description": "Do not change ",
+            "value": "https://github.com/S780821/Flame_Music",
+            "required": true
+        },
+        "UPSTREAM_BRANCH": {
+            "description": "",
+            "value": "Xmarty",
+            "required": true
+        },
+        "MONGO_DB_URI": {
+            "description":"Generate mongo db url from (mongodb.cloud.com)",
+            "required": true,
+            "value": ""
+        }
+    },
+    "buildpacks": [{
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    }, {
+      "url": "heroku/python"
+    }],
+    "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
