@@ -96,9 +96,9 @@ async def closesmex(_, CallbackQuery):
         smex, user_id = callback_request.split("|")
     except Exception as e:
         await CallbackQuery.message.edit(
-            f""" Tʜᴇʀᴇ ɪs ᴀɴ ᴇʀʀᴏʀ
-Pᴏssɪʙʟᴇ ʀᴇᴀsᴏɴs ᴄᴏᴜʟᴅ ʙᴇ
-"""** :{e}
+            f"""
+Tʜᴇʀᴇ ɪs ᴀɴ ᴇʀʀᴏʀ
+Pᴏssɪʙʟᴇ ʀᴇᴀsᴏɴs ᴄᴏᴜʟᴅ ʙᴇ** :{e}
 """
         )
         return
