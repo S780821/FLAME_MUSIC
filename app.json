@@ -76,7 +76,7 @@
         },
         "UPSTREAM_BRANCH": {
             "description": "",
-            "value": "Xmarty",
+            "value": "master",
             "required": true
         },
         "MONGO_DB_URI": {
