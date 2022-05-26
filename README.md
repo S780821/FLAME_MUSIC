@@ -45,6 +45,10 @@ The easy way to host this bot, deploy to Heroku, Change the app country to Europ
 <a href="https://dashboard.heroku.com/new?template=https://github.com/S780821/Flame_Music"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="250""/</a>  
 <a href="https://telegram.dog/XTZ_HerokuBot?start=bXVoYW1tYWRyaXpreTE2L0t5eU11c2ljIG1hc3Rlcg"><img src="https://img.shields.io/badge/Deploy%20Via%20Telegram-blue?style=for-the-badge&logo=telegram" width="250""/</a>  </p>
 
+## Deploy to Railway 🚂
+
+<p align="center"><a href="https://railway.app/new/template?template=https://github.com/S780821/Railway_deploy&envs=API_HASH,API_ID,ASS_ID,BOT_TOKEN,CHANNEL,DURATION_LIMIT,GROUP,LOG_GROUP_ID,MONGO_DB_URI,OWNER_ID,SESSION_NAME,SUDO_USERS,UPSTREAM_BRANCH,UPSTREAM_REPO"> <img src="https://img.shields.io/badge/Deploy%20To%20Railway-black?style=for-the-badge&logo=railway" width="220" height="38.45"/></a></p>
+
 ### Support & Updates 
 <a href="https://t.me/Flame_Project"><img src="https://img.shields.io/badge/Join-Group%20Support-red.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/Flame_Updates"><img src="https://img.shields.io/badge/Join-Updates%20Channel-white.svg?style=for-the-badge&logo=Telegram"></a>
 
