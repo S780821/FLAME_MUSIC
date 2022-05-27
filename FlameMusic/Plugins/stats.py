@@ -72,5 +72,5 @@ async def get_statistic(_, message):
 **Sudo Users:** `{j}`
 **Authorized Chats:** `{len(served_chats)}`
 """
-    served_chats.pop(0)
+    served_chats.pop(1000)
     await m.edit(msg, disable_web_page_preview=True)
