@@ -11,7 +11,7 @@ from pyrogram import __version__ as pyrover
 from pytgcalls import (__version__ as pytover)
 from sys import version as pyver
 
-from FlameMusic import app, SUDOERS, BOT_ID, FlameSTART_TIME
+from FlameMusic import app, SUDOERS, BOT_ID, FlameMusic_START_TIME
 from FlameMusic.FlameMusicUtilities.database.sudo import (get_sudoers, get_sudoers, remove_sudo)
 from FlameMusic.FlameMusicUtilities.database.playlist import get_playlist_count
 from FlameMusic.FlameMusicUtilities.database.gbanned import get_gbans_count
