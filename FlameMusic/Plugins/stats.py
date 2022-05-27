@@ -11,7 +11,7 @@ from pyrogram import __version__ as pyrover
 from pytgcalls import (__version__ as pytover)
 from sys import version as pyver
 
-from FlameMusic import app, SUDOERS, BOT_ID, __version__ as Flame_version, FlameSTART_TIME
+from FlameMusic import app, SUDOERS, BOT_ID, FlameSTART_TIME
 from FlameMusic.FlameMusicUtilities.database.sudo import (get_sudoers, get_sudoers, remove_sudo)
 from FlameMusic.FlameMusicUtilities.database.playlist import get_playlist_count
 from FlameMusic.FlameMusicUtilities.database.gbanned import get_gbans_count
@@ -60,7 +60,7 @@ async def get_statistic(_, message):
 **Storage:** used {used[:4]} GiB out of {total[:4]} GiB, free {free[:4]} GiB
 **Architecture:** {arch}
 **Ram:** {ram}
-**Bot Version:** `{Flame_version}`
+**Bot Version:** `latest version`
 **Python Version:** `{pyver.split()[0]}`
 **Pyrogram Version:** `{pyrover}`
 **PyTgCalls Version:** `{pytover.__version__}`
